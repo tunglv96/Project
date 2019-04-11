@@ -1,0 +1,206 @@
+*{margin: 0; padding: 0;}
+
+i.fa.fa-shopping-bag:hover {
+    color: white;
+    font-size: 23px;
+}
+
+i.fa.fa-shopping-bag {
+    font-size: 23px;
+    color: black;
+}
+i.fa.star {
+    font-size: 20px;
+    color: #FFFF00;
+}
+
+form.form-inline {
+    float: right;
+}
+
+button.btn.btn-outline-dark:hover {
+    color: white;
+    background: black;
+}
+
+button.btn.btn-outline-dark {
+    border: 1px solid black;
+    background: white;
+}
+
+img.img_carousel {
+    width: 1110px;
+    margin-top: 54px;
+}
+
+a.facebook {
+    font-size: 50px;
+}
+a.facebook:hover {
+    font-size: 50px;
+    color:white;
+}
+a.twitter {
+    font-size: 50px;
+}
+a.twitter:hover {
+    font-size: 50px;
+    color:white;
+}
+a.youtube {
+    font-size: 50px;
+}
+a.youtube:hover {
+    font-size: 50px;
+    color:white;
+}
+a.instagram {
+    font-size: 50px;
+}
+a.instagram:hover {
+    font-size: 50px;
+    color:white;
+}
+input.form-control.mr-sm-2.timkiem {
+    border: 1px solid black;
+    border-radius: 100px;
+    padding-right: 100px;
+}
+
+.watches_img{
+	padding-left: 50px;
+	text-align:center;
+}
+.name_watches{
+	text-align: center;
+}
+.clock_prices{
+	padding-left: 80px;
+   color:red;
+}
+.dongho{
+	position: relative;
+	width:100%;
+	height:385px;
+}
+.dh {
+	position: absolute;
+	z-index: 1;
+}
+.nen{
+	position: absolute;
+	top:0px;
+	left:0px;
+	z-index:2;
+	width:245px;
+	height:382px;
+	margin-left:17px;
+	background-color: rgba(237, 230, 230, 0.6);
+	opacity: 0;
+}
+.dongho:hover .nen{
+	opacity: 1;
+}
+ .cacicon{
+	position: absolute;
+	top: 150px;
+	left:0px;
+	z-index:3;
+	width:270px;
+	height:30px;
+	text-align: center;
+	transition: 0.4s;
+	transform: scale(0);
+}
+.dongho:hover .cacicon{
+	transform: scale(1);
+	transition-delay: 0.2s; 
+}
+.nho{
+	background-color: #FF8C00;
+	color:black;
+	padding: 17px 17px;
+}
+.logo{
+	 color: #ededed!important;
+	 font-weight: bold;
+}
+.title1	{
+	background-color: black;
+	color:#FF8C00;
+	padding: 15px 0 15px 0;
+	text-align: center;
+}
+.title	{
+	background-color: black;
+	color:#FF8C00;
+	padding: 15px 0 15px 0;
+	text-align: center;
+	margin-top: 3%;
+}
+a:hover{
+	text-decoration:none;
+}
+.frontpager {
+	margin:0 20px 0 0;
+	color: black!important;
+	font-weight: 600;
+}
+.frontpager:hover {
+	margin:0 20px 0 0;
+	color: white!important;
+	font-weight: 500;
+}
+.frontpager1 {
+	margin:0px 20px 0 20px;
+	color: white!important;
+	font-weight: 500;
+}
+nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
+    background-color: #FF8C00;
+}
+.nenft{
+	color:white;
+	padding: 40px 20px 40px 80px;
+	width: 1363px;
+	background-color: black;
+	margin-top: 3%;
+}
+.star {
+	margin-left: 70px;
+}
+.ft-watches{
+	width: 1150px;
+	margin: 0 auto; 
+}
+.frontpager2{
+	background-color: black;
+	color:#FF8C00;
+	padding: 15px 0 15px 0;
+	text-align: center;
+}
+.footer-box{
+	text-align: center;
+}
+.footer-title{
+	font-size:26px;
+}
+.footer-email{
+	color:white!important;
+}
+.video_sp{
+	height: 300px;
+	width:530px;
+}
+@media(min-width: 768px) and (max-width: 991px){
+	*{}
+
+button.navbar-toggler.hidden-xl-up {
+    margin-left: 67%;
+}
+
+iframe.video_sp {
+    width: 370px;
+    height: 200px;
+}
+}
